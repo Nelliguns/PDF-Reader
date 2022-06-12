@@ -2,7 +2,7 @@ from PyPDF4 import PdfFileReader
 from pathlib import Path
 
 
-pdf = PdfFileReader('curriculum.pdf')
+pdf = PdfFileReader('PDF.pdf')
 
 page_1_object = pdf.getPage(0)  # Note pages are indexed
 
